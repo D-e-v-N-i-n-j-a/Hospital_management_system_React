@@ -1,0 +1,111 @@
+.dashboard-container {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-color: #ecf0f4;
+}
+
+/* MAIN CONTAINER 1B2B43 */
+.main-menu-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+/* TOPMENU */
+.top-menu {
+  width: 100%;
+  height: 50px;
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-menu {
+  width: 100%;
+  height: 30px;
+  background-color: #b8d5f4;
+  display: flex;
+  color: #4a6580;
+  font-size: 9px;
+  align-items: center;
+}
+.sub-menu h2 {
+  margin-left: 10px;
+}
+/* DESIGN LOGO */
+.dasboard_logo {
+  display: flex;
+  align-items: center;
+ 
+}
+.dasboard_logo span{
+    font-size: 12px;
+    font-family: 'tahoma';
+    color: tomato;
+}
+.dasboard_logo img {
+  height: 30px;
+}
+/* MENU ICONS */
+.menu-icons-section {
+  margin-right: 1rem;
+}
+
+.user-icons {
+  margin-left: 10px;
+  background-color: #38489c;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+.menu-icons-section .fa {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.menu-icons-section span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* ICON BACKGROUND */
+.department_section_ctx {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon_card {
+  width: 100px;
+  height: 130px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+.icon_card:hover span{
+    color: red;
+    text-decoration: underline;
+}
+.department_card {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_card span {
+  color: #38489c;
+  margin-top: 10px;
+  font-size: 13px;
+  width: 100px;
+}
+.department_card img {
+  height: 50px;
+}

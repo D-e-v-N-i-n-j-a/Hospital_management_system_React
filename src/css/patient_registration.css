@@ -1,0 +1,160 @@
+.patient_registration {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.patient_registration_ctx {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #b8d5f4;
+}
+.registration_container {
+  width: 98%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.p_container_top_ctx {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #edecef;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.p_sub_menu {
+  display: flex;
+  margin: 10px;
+}
+.health_insurance {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.expired_date {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.is_insured {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.search_section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_section .fa {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #003f82;
+  color: white;
+}
+.patient_photo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: #b8d5f4;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+}
+.p_title {
+  margin-left: 20px;
+  color: #3f3f41;
+}
+
+/* PATIENT PERSONAL INFORMATION */
+.patient_personal_info {
+  width: 100%;
+  height: 220px;
+  border-bottom: 1px solid #edecef;
+  display: flex;
+  justify-content: space-between;
+}
+.patient_personal__info span{
+    margin-top: 10px;
+}
+.patient_personal__info {
+ flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.patient__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_field{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.patient__second__step{
+    flex: 1;
+    display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.patient__second__step span{
+    margin-top: 10px;
+}
+.patient__third__step{
+    flex: 1;
+    display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.patient__third__step span{
+    margin-top: 10px;
+}
+
+/* PATIENT RELATIVE REGISTRATION SECTION */
+.patient_relative_info{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.patient_relative_container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.patient_relative__info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.relative_ctx{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+
+
+
+
